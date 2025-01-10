@@ -1,29 +1,3 @@
-/* *****************************************************************************
- *  Name:    Jeremie Lumbroso
- *  NetID:   lumbroso
- *  Precept: P99
- *
- *  Partner Name:    Donna Gabai
- *  Partner NetID:   dgabai
- *  Partner Precept: P99
- * 
- *  Description:  Implements an interactive client that builds a Tour using
- *                either the nearest heuristic (red) or the smallest heuristic
- *                (blue).
- *                
- *                Can be called with or without an input file to begin:
- *
- *                  java-introcs TSPVisualizer tsp1000.txt
- *
- *                Keyboard commands:
- *                  - n   toggle nearest heuristic tour
- *                  - s   toggle smallest heuristic tour
- *                  - m   toggle mouse up correction (what does this do... ?)
- *                  - q   quit (no!)
- *
- *  Dependencies: Point, StdOut, StdDraw
- **************************************************************************** */
-
 import java.util.ArrayList;
 
 public class TSPVisualizer {
